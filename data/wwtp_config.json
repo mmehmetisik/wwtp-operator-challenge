@@ -1,0 +1,55 @@
+{
+  "plant_name": "Ceyhan WWTP",
+  "location": "Adana, Turkey",
+  "capacity_m3_day": 50000,
+  "legal_limits": {
+    "cod": 125,
+    "bod": 25,
+    "tss": 35,
+    "tn": 15,
+    "tp": 2
+  },
+  "initial_state": {
+    "mlss": 3500,
+    "do": 2.0,
+    "srt_days": 12,
+    "svi": 120,
+    "ras_ratio": 80,
+    "effluent_cod": 28,
+    "effluent_bod": 8,
+    "effluent_tss": 12,
+    "effluent_tn": 10,
+    "effluent_tp": 1.2,
+    "energy_kwh_per_m3": 0.38
+  },
+  "blower_fault_days": [26, 27, 28],
+  "blower_fault_max_capacity": 50,
+  "scoring": {
+    "discharge_compliance": {
+      "max_points": 40,
+      "violation_penalty": 2,
+      "bypass_penalty": 5
+    },
+    "energy_efficiency": {
+      "max_points": 20,
+      "thresholds": {
+        "excellent": 0.40,
+        "good": 0.50,
+        "acceptable": 0.55,
+        "poor": 0.65
+      }
+    },
+    "biological_stability": {
+      "max_points": 20,
+      "mlss_critical_range": [1500, 6000],
+      "mlss_warning_range": [2000, 5000],
+      "srt_range": [4, 30],
+      "svi_max": 200
+    },
+    "crisis_management": {
+      "max_points": 20,
+      "industrial_shock_days": [15, 16, 17],
+      "blower_fault_days": [26, 27, 28]
+    }
+  }
+}
