@@ -133,7 +133,7 @@ The top 3 models **never used bypass** — not even once during the worst crises
 
 ## 📄 Report
 
-📥 **[Download Full Analysis Report (DOCX)](report/wwtp_benchmark_report.docx)**
+📥 **[Download Full Analysis Report (DOCX)](report/wwtp_benchmark_report.pdf)**
 
 The report includes:
 
