@@ -197,6 +197,7 @@ If you use this benchmark in your research, please cite:
 **Mehmet ISIK**  
 Kaggle Grandmaster | WWTP Operations Expert (10+ years)
 
+- 🌐 Website: [mehmetisik.dev](https://mehmetisik.dev/)
 - 🏆 Kaggle: [@mehmetisik](https://www.kaggle.com/mehmetisik)
 - ✍️ Medium: [@mmehmetisik](https://medium.com/@mmehmetisik)
 - 💼 LinkedIn: [Mehmet ISIK](https://www.linkedin.com/in/mmehmetisik)
